@@ -1,6 +1,57 @@
 /* work sans font from google font */
 @import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+/* shared style */
+.btn-primary{
+    
+}
 *{
     font-family: 'Agdasima', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+/* header styles */
+header{
+    background: rgba(255, 144, 14, 0.10);
+    padding: 50px 240px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+}
+.nav-title{
+    font-size: 3rem;
+    font-weight: 700;
+    color:#131313 ;
+}
+nav>ul{
+    display: flex;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1em;
+    
+}
+nav li a{
+    text-decoration: none;
+    color:var(--dark-02, #424242); ;
+}
+/* banner styles */
+.banner-content{
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
+    
 }
